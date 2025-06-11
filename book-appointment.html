@@ -1,0 +1,20 @@
+<body>
+  <header>...</header>
+  <main>
+    <h2>Book Appointment</h2>
+    <form onsubmit="return validateAppointment()">
+      <input type="text" id="patientName" placeholder="Patient Name" required />
+      <select id="doctor">
+        <option value="">Select Doctor</option>
+        <option>Dr. Sharma</option>
+        <option>Dr. Mehta</option>
+        <option>Dr. Kapoor</option>
+      </select>
+      <input type="date" id="appointmentDate" required />
+      <input type="time" id="appointmentTime" required />
+      <button type="submit">Book</button>
+    </form>
+  </main>
+  <footer>...</footer>
+  <script src="js/validation.js"></script>
+</body>
